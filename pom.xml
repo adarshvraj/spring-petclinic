@@ -231,7 +231,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.3</version>
         <configuration>
-          <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
+          <webappDirectory>/var/lib/jenkins/workspace/pet_project/target</webappDirectory>
         </configuration>
       </plugin>
     </plugins>
