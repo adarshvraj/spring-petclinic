@@ -226,6 +226,14 @@
           </dependency>
         </dependencies>
       </plugin>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.3</version>
+        <configuration>
+          <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 
